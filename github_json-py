@@ -1,0 +1,22 @@
+import base64
+import json
+import requests
+
+REPO_URL = "https://api.github.com/repos/<USER>/<REPO>/contents/<PATH>/<TO>/<FILE>.json"
+TOKEN = "<7522778102:AAE_H1lfrXglY6_6YpAP2S4L0Ziwztu3W4g>"
+
+headers = {
+    "Authorization": f"token {TOKEN}",
+    "Accept": "application/vnd.github.v4+raw"
+}
+
+response = requests.get(https://github.com/dinesh2478/linkpreview6877, headers=headers)
+
+if response and response.status_code == 200:
+    binary_content = base64.b64decode(response.json()["content"])
+    content = binary_content.decode("utf-8")
+    json = json.loads(content)
+    print(json)
+else:
+    print(response)
+Comment
