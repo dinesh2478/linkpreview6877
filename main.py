@@ -1,9 +1,9 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_ID = "29721671"
-API_HASH = "dcff48c9ff5ff7b54990a3fb09499308"
-BOT_TOKEN = "7522778102:AAE_H1lfrXglY6_6YpAP2S4L0Ziwztu3W4g"
+API_ID = "26758684"
+API_HASH = "7296d2b5945a5a8b73555f24bbb1418e"
+BOT_TOKEN = "7299358803:AAGOFJgNV05eG5NEIlnzMuFBhE0iEOiA3Hk"
 
 linkpreview6877_bot = Client(
     name="linkpreview6877_bot",
@@ -30,4 +30,4 @@ async def help_cmd(client, message):
 
 print("Bot was started")
 
-Preview07_bot.run()
+linkpreview6877_bot.run()
