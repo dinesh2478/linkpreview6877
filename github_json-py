@@ -2,8 +2,8 @@ import base64
 import json
 import requests
 
-REPO_URL = "https://api.github.com/repos/<USER>/<REPO>/contents/<PATH>/<TO>/<FILE>.json"
-TOKEN = "<7522778102:AAE_H1lfrXglY6_6YpAP2S4L0Ziwztu3W4g>"
+REPO_URL = "https://api.github.com/repos/<DINESH2478>/<linkpreview6877>/contents/<tree>/<TO>/<main>.json"
+TOKEN = "<7299358803:AAGOFJgNV05eG5NEIlnzMuFBhE0iEOiA3Hk>"
 
 headers = {
     "Authorization": f"token {TOKEN}",
